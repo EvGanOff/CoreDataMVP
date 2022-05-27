@@ -23,8 +23,17 @@
 		5E957B53283C2FBE00EA9391 /* DetailsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B52283C2FBE00EA9391 /* DetailsListViewController.swift */; };
 		5E957B55283C37C600EA9391 /* DeteilsViewPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B54283C37C600EA9391 /* DeteilsViewPresentor.swift */; };
 		5E957B57283D6AE500EA9391 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B56283D6AE500EA9391 /* PersistenceManager.swift */; };
-		5E957B5A283E965600EA9391 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B59283E965600EA9391 /* CoreDataModel.swift */; };
-		5EBBD0F5283C222100A3994B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBBD0F4283C222100A3994B /* Model.swift */; };
+		5E957B5C283EA39100EA9391 /* CDPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B5B283EA39100EA9391 /* CDPickerView.swift */; };
+		5E957B5E283EAF4100EA9391 /* ExtensionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B5D283EAF4100EA9391 /* ExtensionUIViewController.swift */; };
+		5E957B60283EC21500EA9391 /* CDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B5F283EC21500EA9391 /* CDImageView.swift */; };
+		5E957B62283EC3BA00EA9391 /* ExtensionUIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B61283EC3BA00EA9391 /* ExtensionUIStackView.swift */; };
+		5E957B6A283F95AC00EA9391 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B68283F95AC00EA9391 /* Person+CoreDataClass.swift */; };
+		5E957B6B283F95AC00EA9391 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B69283F95AC00EA9391 /* Person+CoreDataProperties.swift */; };
+		5E957B6E283FA15400EA9391 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B6D283FA15400EA9391 /* Coordinator.swift */; };
+		5E957B70283FA18A00EA9391 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B6F283FA18A00EA9391 /* AppCoordinator.swift */; };
+		5E957B72283FA1C500EA9391 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E957B71283FA1C500EA9391 /* MainCoordinator.swift */; };
+		5EDCC14F2840D82A00BAB225 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDCC14E2840D82A00BAB225 /* Constants.swift */; };
+		5EDCC1512840D99700BAB225 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDCC1502840D99700BAB225 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +55,17 @@
 		5E957B52283C2FBE00EA9391 /* DetailsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsListViewController.swift; sourceTree = "<group>"; };
 		5E957B54283C37C600EA9391 /* DeteilsViewPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeteilsViewPresentor.swift; sourceTree = "<group>"; };
 		5E957B56283D6AE500EA9391 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
-		5E957B59283E965600EA9391 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
-		5EBBD0F4283C222100A3994B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5E957B5B283EA39100EA9391 /* CDPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDPickerView.swift; sourceTree = "<group>"; };
+		5E957B5D283EAF4100EA9391 /* ExtensionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIViewController.swift; sourceTree = "<group>"; };
+		5E957B5F283EC21500EA9391 /* CDImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDImageView.swift; sourceTree = "<group>"; };
+		5E957B61283EC3BA00EA9391 /* ExtensionUIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIStackView.swift; sourceTree = "<group>"; };
+		5E957B68283F95AC00EA9391 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5E957B69283F95AC00EA9391 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5E957B6D283FA15400EA9391 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5E957B6F283FA18A00EA9391 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5E957B71283FA1C500EA9391 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		5EDCC14E2840D82A00BAB225 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5EDCC1502840D99700BAB225 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,16 +98,8 @@
 		5E7E9FE6283B9D47009C5092 /* CoreDataMVP */ = {
 			isa = PBXGroup;
 			children = (
-				5E7EA008283BA9BB009C5092 /* AssemblyLayer.swift */,
-				5E957B56283D6AE500EA9391 /* PersistenceManager.swift */,
-				5E957B59283E965600EA9391 /* CoreDataModel.swift */,
-				5E7E9FF0283B9D47009C5092 /* CoreDataMVP.xcdatamodeld */,
-				5E7EA011283BAECB009C5092 /* CustomUI */,
-				5E7E9FFF283BA70A009C5092 /* App */,
-				5E7EA000283BA71D009C5092 /* MainModule */,
-				5E7EA004283BA781009C5092 /* DetailModule */,
-				5E7E9FF3283B9D48009C5092 /* Assets.xcassets */,
-				5E7E9FFE283BA2E0009C5092 /* Storyboards */,
+				5EDCC1522840E45200BAB225 /* Source */,
+				5EDCC1532840E60600BAB225 /* Resource */,
 				5E7E9FF8283B9D48009C5092 /* Info.plist */,
 			);
 			path = CoreDataMVP;
@@ -116,7 +126,6 @@
 		5E7EA000283BA71D009C5092 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				5E7EA003283BA76B009C5092 /* Model */,
 				5E7EA001283BA74E009C5092 /* View */,
 				5E7EA002283BA758009C5092 /* Presenter */,
 			);
@@ -140,29 +149,13 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		5E7EA003283BA76B009C5092 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				5EBBD0F4283C222100A3994B /* Model.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		5E7EA004283BA781009C5092 /* DetailModule */ = {
 			isa = PBXGroup;
 			children = (
-				5E7EA005283BA7AB009C5092 /* Model */,
 				5E7EA007283BA846009C5092 /* View */,
 				5E7EA006283BA836009C5092 /* Presenter */,
 			);
 			path = DetailModule;
-			sourceTree = "<group>";
-		};
-		5E7EA005283BA7AB009C5092 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		5E7EA006283BA836009C5092 /* Presenter */ = {
@@ -177,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				5E957B52283C2FBE00EA9391 /* DetailsListViewController.swift */,
+				5EDCC1502840D99700BAB225 /* DetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,10 +187,83 @@
 			isa = PBXGroup;
 			children = (
 				5E7EA00F283BAEA5009C5092 /* CDTitleLabel.swift */,
+				5E957B5F283EC21500EA9391 /* CDImageView.swift */,
 				5E7EA012283BE221009C5092 /* CDTextField.swift */,
 				5E7EA014283BEC79009C5092 /* CDButton.swift */,
+				5E957B5B283EA39100EA9391 /* CDPickerView.swift */,
 			);
 			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		5E957B63283EC4C200EA9391 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E957B5D283EAF4100EA9391 /* ExtensionUIViewController.swift */,
+				5E957B61283EC3BA00EA9391 /* ExtensionUIStackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E957B64283ED69700EA9391 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				5E7EA008283BA9BB009C5092 /* AssemblyLayer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		5E957B65283ED6A200EA9391 /* PersistenceManager */ = {
+			isa = PBXGroup;
+			children = (
+				5E957B56283D6AE500EA9391 /* PersistenceManager.swift */,
+				5E957B68283F95AC00EA9391 /* Person+CoreDataClass.swift */,
+				5E957B69283F95AC00EA9391 /* Person+CoreDataProperties.swift */,
+				5E7E9FF0283B9D47009C5092 /* CoreDataMVP.xcdatamodeld */,
+			);
+			path = PersistenceManager;
+			sourceTree = "<group>";
+		};
+		5E957B6C283FA08E00EA9391 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5E957B6D283FA15400EA9391 /* Coordinator.swift */,
+				5E957B6F283FA18A00EA9391 /* AppCoordinator.swift */,
+				5E957B71283FA1C500EA9391 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5EDCC14D2840D81300BAB225 /* Utinity */ = {
+			isa = PBXGroup;
+			children = (
+				5EDCC14E2840D82A00BAB225 /* Constants.swift */,
+			);
+			path = Utinity;
+			sourceTree = "<group>";
+		};
+		5EDCC1522840E45200BAB225 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5E7E9FFF283BA70A009C5092 /* App */,
+				5EDCC14D2840D81300BAB225 /* Utinity */,
+				5E957B6C283FA08E00EA9391 /* Coordinator */,
+				5E957B63283EC4C200EA9391 /* Extensions */,
+				5E957B64283ED69700EA9391 /* Assembly */,
+				5E957B65283ED6A200EA9391 /* PersistenceManager */,
+				5E7EA011283BAECB009C5092 /* CustomUI */,
+				5E7EA000283BA71D009C5092 /* MainModule */,
+				5E7EA004283BA781009C5092 /* DetailModule */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5EDCC1532840E60600BAB225 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5E7E9FF3283B9D48009C5092 /* Assets.xcassets */,
+				5E7E9FFE283BA2E0009C5092 /* Storyboards */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,21 +337,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E957B70283FA18A00EA9391 /* AppCoordinator.swift in Sources */,
 				5E7E9FEC283B9D47009C5092 /* MainViewController.swift in Sources */,
 				5E957B57283D6AE500EA9391 /* PersistenceManager.swift in Sources */,
 				5E7E9FE8283B9D47009C5092 /* AppDelegate.swift in Sources */,
-				5E957B5A283E965600EA9391 /* CoreDataModel.swift in Sources */,
 				5E7EA00B283BAA2B009C5092 /* MainViewPresenter.swift in Sources */,
+				5EDCC1512840D99700BAB225 /* DetailsView.swift in Sources */,
 				5E7E9FF2283B9D47009C5092 /* CoreDataMVP.xcdatamodeld in Sources */,
+				5EDCC14F2840D82A00BAB225 /* Constants.swift in Sources */,
 				5E7EA009283BA9BB009C5092 /* AssemblyLayer.swift in Sources */,
 				5E7EA00E283BAE16009C5092 /* TableViewCell.swift in Sources */,
+				5E957B72283FA1C500EA9391 /* MainCoordinator.swift in Sources */,
+				5E957B6A283F95AC00EA9391 /* Person+CoreDataClass.swift in Sources */,
 				5E7EA013283BE221009C5092 /* CDTextField.swift in Sources */,
+				5E957B6B283F95AC00EA9391 /* Person+CoreDataProperties.swift in Sources */,
+				5E957B60283EC21500EA9391 /* CDImageView.swift in Sources */,
 				5E957B55283C37C600EA9391 /* DeteilsViewPresentor.swift in Sources */,
 				5E7EA010283BAEA5009C5092 /* CDTitleLabel.swift in Sources */,
-				5EBBD0F5283C222100A3994B /* Model.swift in Sources */,
+				5E957B5E283EAF4100EA9391 /* ExtensionUIViewController.swift in Sources */,
 				5E7EA015283BEC79009C5092 /* CDButton.swift in Sources */,
+				5E957B5C283EA39100EA9391 /* CDPickerView.swift in Sources */,
 				5E7E9FEA283B9D47009C5092 /* SceneDelegate.swift in Sources */,
+				5E957B62283EC3BA00EA9391 /* ExtensionUIStackView.swift in Sources */,
 				5E957B53283C2FBE00EA9391 /* DetailsListViewController.swift in Sources */,
+				5E957B6E283FA15400EA9391 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
